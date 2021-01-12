@@ -7,8 +7,8 @@ const WalkItemsDetail = props => {
     return <Text>Please Wait for Walks.</Text>;
   }
 
-
   const listItems = props.walkItems.walks_result.map(walk => {
+    // if statement
     return (
       <View style={styles.text}>
         <Text>Walk location: {walk.WalkName}</Text>
